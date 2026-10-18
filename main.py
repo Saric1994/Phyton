@@ -43,7 +43,7 @@ for person in data_dic:
 # 4. Send the letter generated in step 3 to that person's email address.
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             connection.starttls()
-            connection.login(user=my_email, password=password)
-            connection.sendmail(from_addr=my_email,
+            connection.login(user=MY_EMAIL, password=MY_PASSWORD)
+            connection.sendmail(from_addr=MY_EMAIL,
                                 to_addrs="saricpython@yahoo.com",
                                 msg=f"Subject:Happy Birthday\n\n{msg}")
