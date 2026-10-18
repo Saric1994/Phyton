@@ -14,7 +14,7 @@ on:
     # ║                                                                ║
     # ║  Use https://time.is/UTC to find your local time in UTC       ║
     # ╚═══════════════════════════════════════════════════════════════╝
-    - cron: '09 22 * * *'
+    - cron: '15 20 * * *'
   workflow_dispatch:  # Manual trigger only
 
 jobs:
