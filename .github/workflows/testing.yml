@@ -1,1 +1,9 @@
+name: Test Setup
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
